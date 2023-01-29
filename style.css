@@ -1,0 +1,57 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    font-family: monospace;
+}
+
+header {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 100vw;
+}
+
+main {
+    overflow-x: auto;
+    margin: 12px;
+}
+
+table tr :nth-child(2) {
+    padding-left: 16px;
+}
+
+
+@media (min-width: 400px) {
+
+    body {
+        margin: 8px auto;
+    }
+
+    header {
+        max-width: 100%;
+        margin: 40px;
+        margin-bottom: 20px;
+    }
+
+    header img {
+        max-width: 100%;
+        border: none;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    main {
+        margin: auto auto;
+        padding: 12px;
+
+        max-width: 600px;
+
+    }
+
+
+
+}
